@@ -1,0 +1,19 @@
+Minimum 3 tiers are used in modern systems. Each tier should and can run independently in any language/ technology.
+
+1) Storage Tier : Data stores like RDBMS(MS-Sql, MySql, PostgreSQL) or NoSQL (MongoDB, Neo4JS, DynamoDB) or FileSystem used for images, videos and other files
+
+2) API Tier : also called Service layer. All business logic is developed in API. It helps systems to connect to other systems seamlesly. Its also helps in keeping Logic layey seperated from presentation layer (UI - Apps or Web)
+API development platform / programming languages - NodeJS, C#, Java, Go
+
+3) UI Tier : presentation layer , developed specifically for specific user groups - Web(Desktop), Mobile Web, Android, iOS.
+
+Tools:
+	IDE - e.g. Visual Studio Code
+	App Servers: Tomcat, Apache, IIS
+	Cloud: Hosting the application by renting VMs(Almost same as on-Prem server but gives flexibility on sizing) or using managed service. (Azuere, Google Cloud Platform, AWS)
+	On-prem Server: Buy your own hardware and installl required software and host the application for users to use.
+	Source Control : Source code versioning e.g. Git, bitBucket
+	
+	-- Even if you dont know, its fine
+	Project management tool: e.g. Jira
+	Automated Testing Tool: e.g. Selenium
